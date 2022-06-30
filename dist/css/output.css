@@ -650,12 +650,12 @@ h5 {
   position: relative;
 }
 
-.-right-32 {
-  right: -8rem;
+.right-0 {
+  right: 0px;
 }
 
-.bottom-6 {
-  bottom: 1.5rem;
+.bottom-0 {
+  bottom: 0px;
 }
 
 .-left-36 {
@@ -676,10 +676,6 @@ h5 {
 
 .-right-28 {
   right: -7rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .bottom-8 {
@@ -743,6 +739,10 @@ h5 {
   margin-top: 2.25rem;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -769,10 +769,6 @@ h5 {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 
 .ml-1 {
@@ -815,10 +811,6 @@ h5 {
   width: 18rem;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -833,6 +825,14 @@ h5 {
 
 .w-3 {
   width: 0.75rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-40 {
+  width: 10rem;
 }
 
 .-translate-x-1\/2 {
@@ -1082,10 +1082,6 @@ h5 {
 }
 
 @media (min-width: 1024px) {
-  .lg\:visible {
-    visibility: visible;
-  }
-
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -1121,6 +1117,10 @@ h5 {
 
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:w-72 {
+    width: 18rem;
   }
 
   .lg\:flex-wrap {
