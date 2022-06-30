@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-6xl lg:text-[100px] font-black font-helvetica bg-gradient-to-r from-white to-white60 bg-clip-text text-transparent leading-none;
+    }
+    h2 {
+        @apply  text-5xl lg:text-[80px] font-black font-helvetica bg-gradient-to-r from-white to-white60 bg-clip-text text-transparent leading-none;
+    }
+    h3 {
+        @apply text-[40px] lg:text-[50px] font-black font-helvetica bg-gradient-to-r from-white to-white60 bg-clip-text text-transparent leading-none;
+    }
+    h4 {
+        @apply text-[35px] font-black font-dmsans leading-none;
+    }
+    h5 {
+        @apply text-2xl lg:text-[30px] font-black font-dmsans leading-none;
+    }
+}
+
+.hamburger-line {
+    @apply w-[35px] h-[2px] bg-white block mb-2;
+}
+
+.footer-items {
+    @apply mt-4 text-opacity-60 hover:text-white transition duration-500 ease-in-out;
+}
